@@ -3383,7 +3383,7 @@ class YoutubeTruncatedURLIE(InfoExtractor):
 class YoutubeTruncatedIDIE(InfoExtractor):
     IE_NAME = 'youtube:truncated_id'
     IE_DESC = False  # Do not list
-    _VALID_URL = r'https?://(?:www\.)?youtube\.com/watch\?v=(?P<id>[0-9A-Za-z_-]{1,10})$'
+    _VALID_URL = r'https?://(?:www\.)?youtube\.com/watch\?v=(?P<id>[0-9A-Za-z_-]{1,11})$'
 
     _TESTS = [{
         'url': 'https://www.youtube.com/watch?v=N_708QY7Ob',
